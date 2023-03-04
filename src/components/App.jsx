@@ -13,7 +13,7 @@ function App() {
       return [...prevNotes, newNote];
     });
   }
-
+// hello i am deepak
   function deleteNote(id) {
     setNotes(prevNotes => {
       return prevNotes.filter((noteItem, index) => {
